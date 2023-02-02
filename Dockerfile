@@ -38,6 +38,6 @@ ENV PATH="/opt/program:${PATH}"
 COPY decision_trees /opt/program
 WORKDIR /opt/program
 
-chmod +x decision_trees/train
-chmod +x decision_trees/serve
+RUN chmod +x /opt/program/train
+RUN chmod +x /opt/program/serve
 
