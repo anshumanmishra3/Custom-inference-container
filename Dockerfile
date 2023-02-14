@@ -2,7 +2,7 @@
 # This is a Python 3 image that uses the nginx, gunicorn, flask stack
 # for serving inferences in a stable way.
 
-FROM ubuntu:18.04
+FROM python:3.6-slim-buster
 
 MAINTAINER Amazon AI <sage-learner@amazon.com>
 
